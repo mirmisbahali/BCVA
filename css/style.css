@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  z-index: 1;
+}
+
+nav {
+  background: #28E389;
+}
+
+nav .nav-item .btn {
+  background: #D33B2C;
+  color: white;
+}
+
+.parallax {
+  width: 100vw;
+  height: 90vh;
+  background: url("../img/img1.webp") no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.parallax .overlay {
+  position: absolute;
+  width: 100%;
+  height: 91%;
+  background: black;
+  opacity: 0.6;
+}
+
+.parallax .text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
