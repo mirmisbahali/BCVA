@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
     <link rel="stylesheet" href="./css/style.css">
 
     <title>Brightclick</title>
@@ -17,27 +20,26 @@
 
 <body>
 
-    <div id="logo"><a href="/"><img src="./img/logo.png" alt="brightclick VA" width="128px"></a></div>
+    <!-- <div id="logo"><a href="/"><img src="./img/logo.png" alt="brightclick VA" width="128px"></a></div> -->
     
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
+        <a class="navbar-brand m-auto" href="/"><img src="./img/logo.png" alt="" width="80px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item mx-5 py-1">
-                    <a class="nav-link text-dark font-weight-bold" href="/#services">Services</a>
-                </li>
-                <li class="nav-item mx-5 py-1">
-                    <a class="nav-link text-dark font-weight-bold" href="/#pricing">Pricing</a>
-                </li>
-            </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-5 py-1">
-                    <a class="nav-link text-dark font-weight-bold" href="/#services">Blog</a>
+                    <a class="nav-link text-white font-weight-bold" href="/#services">Services</a>
+                </li>
+                <li class="nav-item mx-5 py-1">
+                    <a class="nav-link text-white font-weight-bold" href="/#pricing">Pricing</a>
+                </li>
+                <li class="nav-item mx-5 py-1">
+                    <a class="nav-link text-white font-weight-bold" href="/#services">Blog</a>
                 </li>
                 <li class="nav-item mx-5 py-1">
                     <a class="nav-link btn text-white" href="/#pricing">Contact Us</a>
@@ -57,32 +59,137 @@
     </div>
 </section>
 
-<section id="two">
+<section id="two" class="alternate-section">
     <div class="container">
-        <h1 class="text-uppercase text-center">Why Choose Us</h1>
-        <div class="row">
-            <div class="col-md-6 sm-12 text-center">
-                <h3>Top notch quality</h3>
+        <h1 class="text-uppercase text-center font-weight-bold">Why Choose Us</h1>
+        <div class="row my-5">
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-right border-bottom">
+                <i class="fas fa-star"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold">Top notch quality</h3>
                 <p>We find and train only the best</p>
                 <p>- we care about our clients, love our work, and enjoy helping</p>
             </div>
-            <div class="col-md-6 sm-12 text-center">
-                <h3>Organised and Secure</h3>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-left border-bottom">
+                <i class="fas fa-sitemap"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold">Organised and Secure</h3>
                 <p>Background checks, secure password-sharing tools, and attention to details</p>
             </div>
-            <div class="col-md-6 sm-12 text-center">
-                <h3>Month to Month</h3>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-right border-top">
+                <i class="far fa-calendar-check"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold">Month to Month</h3>
                 <p>There are no long term contracts, and you can upgrade or downgrade if you need to</p>
             </div>
-            <div class="col-md-6 sm-12 text-center">
-                <h3>2 hour response time</h3>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-left border-top">
+                <i class="fas fa-bolt"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold">2 hour response time</h3>
                 <p>Your virtual assistant writes back in 2 hours with the task done or an estimated time of completion</p>
             </div>
         </div>
     </div>
-
 </section>
 
+
+<section id="services" class="text-white">
+    <div class="overlay"></div>
+    <div class="services-container">
+        <h1 class="text-uppercase text-center font-weight-bold text-white mb-5">Our Services</h1>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-user"></i>
+                <h4 class="my-3 font-weight-bold">Customer Support</h4>
+                <p>Many of our VAs have worked for English speaking call and customer centers, and have experience helping US-based clients
+                everyday.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-bullhorn"></i>
+                <h4 class="my-3 font-weight-bold">General Digital Marketers</h4>
+                <p>VAs with general digital marketing experience. May include social media, paid ads, email marketing, design, content
+                marketing, etc.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-paint-brush"></i>
+                <h4 class="my-3 font-weight-bold">Graphic Designers</h4>
+                <p>Design is an art, but beautiful design is both an art and a science. Get a VA to help you create professional graphics
+                to improve your branding.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-phone-volume"></i>
+                <h4 class="my-3 font-weight-bold">General Admin Assistants</h4>
+                <p>Get help with Administrative tasks. Including answering/making calls, writing emails, scheduling appointments and much
+                more!</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-sitemap"></i>
+                <h4 class="my-3 font-weight-bold">Project and Operations</h4>
+                <p>Get a VA to help you organise your projects, manage your tasks, develop ideas, and who can help you lead a virtual team.</p>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-calendar-check"></i>
+                <h4 class="my-3 font-weight-bold">Executive Assistant</h4>
+                <p>Travel Booking<br>Calendar & Appointment Setting<br>Data Entry<br>Book keeping</p>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-users"></i>
+                <h4 class="my-3 font-weight-bold">HR Recruitment</h4>
+                <p>Get help in building a team for your company.</p>
+            </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-comments"></i>
+                <h4 class="my-3 font-weight-bold">Social Media Marketing</h4>
+                <p>Get a passionate VA who can help you create or grow your social community, increase your fan base and who understand
+                social media</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="service-container w-75 border mx-auto m-3 text-center px-1 py-5">
+                <i class="fas fa-child"></i>
+                <h4 class="my-3 font-weight-bold">Customer Reps</h4>
+                <p>Virtual sales reps who love helping companies with their sales and business development efforts to help you get more
+                clients!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="four" class="alternate-section">
+    <div class="container">
+        <h1 class="text-uppercase text-center font-weight-bold">Why you would need a <span style="color: #FFAA46;">virtual assistant</span></h1>
+        <div class="row my-5">
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-right border-bottom">
+                <i class="fas fa-hand-holding-usd"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold text-uppercase">Save You Money</h3>
+            </div>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-left border-bottom">
+                <i class="far fa-clock"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold text-uppercase">Save You Time</h3>
+            </div>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-right border-top">
+                <i class="fas fa-headset"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold text-uppercase">Less Hassel Than Hiring Someone In-House</h3>
+            </div>
+            <div class="col-md-6 sm-12 text-center py-5 bg-light border-left border-top">
+                <i class="fas fa-chart-line"></i>
+                <h3 class="pb-3 pt-5 font-weight-bold text-uppercase">increase your productivity</h3>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
